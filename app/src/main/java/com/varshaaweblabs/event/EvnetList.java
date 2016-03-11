@@ -6,8 +6,6 @@ import android.view.KeyEvent;
 import android.view.Window;
 import android.view.WindowManager;
 
-import com.varshaaweblabs.event.utility.CommonFunctions;
-
 
 public class EvnetList extends Activity {
    // TabHost tab;
@@ -36,7 +34,7 @@ public class EvnetList extends Activity {
     public boolean onKeyDown(int keyCode, KeyEvent event) {
         if (keyCode == KeyEvent.KEYCODE_BACK) {
 
-            CommonFunctions.alertboxshow(EvnetList.this);
+            //CommonFunctions.alertboxshow(EvnetList.this);
         }
 
         return super.onKeyDown(keyCode, event);
